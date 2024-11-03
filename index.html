@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bonsai</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="https://web.archive.org/web/20221117021714im_/https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5e5fd7c602ca7cd432feb68e_bonsai-logo.svg" alt="Bonsai Logo">
+        </div>
+
+        <!-- Navigation Links -->
+        <nav class="nav-links">
+            <a href="#">Product</a>
+            <a href="#">Templates</a>
+            <a href="#">Pricing</a>
+            <a href="#">Reviews</a>
+        </nav>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <a href="#" class="login">Log In</a>
+            <a href="#" class="start-free">Start Free</a>
+        </div>
+    </header>
+    <!-- plans and pricing -->
+<div class="plansandpricing">
+    <div class="pricing-section">
+    <div class="center"><h1 >Plans & Pricing</h1></div>
+    <div class="toggle-buttons">
+      <button class="active" onclick="togglePricing('monthly')">Monthly</button>
+      <button onclick="togglePricing('yearly')">Yearly</button>
+    </div>
+    <div class="pricing-cards">
+      <!-- Starter Plan -->
+      <div class="pricing-card">
+        <h2>Starter</h2>
+        <div class="price" id="starter-price">$24 <span>/MONTH</span></div>
+        <p>Ideal for freelancers and contractors just starting out.</p>
+        <ul class="feature-list">
+          <li>All Templates</li>
+          <li>Unlimited Clients & Projects</li>
+          <li>Invoicing & Payments</li>
+          <li>Proposals & Contracts</li>
+          <li>Tasks & Time Tracking</li>
+          <li>Client CRM</li>
+          <li>Expense Tracking</li>
+          <li>Up to 5 Project Collaborators</li>
+        </ul>
+        <button class="in">Start Free</button>
+      </div>
+      
+      <!-- Professional Plan -->
+      <div class="pricing-card">
+        <h2>Professional</h2>
+        <div class="price" id="professional-price">$39 <span>/MONTH</span></div>
+        <p>Everything a growing independent business needs to thrive.</p>
+        <ul class="feature-list">
+          <li>Everything in Starter plus...</li>
+          <li>Custom Branding</li>
+          <li>Forms & Questionnaires</li>
+          <li>Workflow Automations</li>
+          <li>Client Portal</li>
+          <li>QuickBooks Integration</li>
+          <li>Calendly Integration</li>
+          <li>Zapier Integration</li>
+          <li>Up to 15 Project Collaborators</li>
+        </ul>
+        <button class="in">Start Free</button>
+      </div>
+
+      <!-- Business Plan -->
+      <div class="pricing-card">
+        <h2>Business</h2>
+        <div class="price" id="business-price">$79 <span>/MONTH</span></div>
+        <p>The perfect package for small businesses and agencies.</p>
+        <ul class="feature-list">
+          <li>Everything in Starter and Professional plus...</li>
+          <li>Subcontractor Management</li>
+          <li>Hiring Agreement Templates (1099 contracts)</li>
+          <li>Subcontractor Onboarding</li>
+          <li>Talent Pool</li>
+          <li>3 Team Seats (additional seats $9/month)</li>
+          <li>Accountant Access</li>
+        </ul>
+        <button class="in" >Start Free</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<!-- Super charge your work with add-ons -->
+<div class="Super charge your work with add-ons">
+<h1 class="cntr">Customize your workflow with add-ons  </h1><br>
+<!-- first article -->
+<div class="article">
+ <div class="inarticle">
+ <h3>Accounting & Tax Assistant</h3>
+ <p>Manage your freelance finances and always be ready for tax season with easy-to-use accounting and tax tools.</p>
+ <span class="green">learn more ></span>
+ </div>
+ <h4>
+    $100 <br> /year
+ </h4>
+</div>
+<br>
+<!-- second article -->
+<div class="article">
+    <div class="inarticle">
+    <h3>Partners</h3>
+    <p>Invite other users for full account access and company management.</p>
+    </div>
+    <h4>
+       $90 <br> /year
+    </h4>
+   </div>
+   <br>
+   <!-- third article -->
+   <div class="article">
+    <div class="inarticle">
+    <h3>Collaborators</h3>
+    <p>Invite other users to specific projects for limited access and functionality.</p>
+    </div>
+    <h4>
+       free
+    </h4>
+   </div>
+</div>
+<br><br><br>
+<!-- container -->
+<div>
+  <div class="container">
+   <h5>
+      It’s  <span class="green">your</span> business.<br>
+We’re here to help it grow.
+   </h5>
+   <!-- <button class="incont">start free</button> -->
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- Frequently Asked Questions -->
+<div class="FrequentlyAskedQuestions">
+ 
+  <h1 class="faq-title">Frequently Asked Questions</h1>
+  
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleAnswer(this)">
+      How does the free trial work?
+    </div>
+    <div class="faq-answer">
+      When you start your trial with Bonsai you’ll receive full, unlimited access to all of Bonsai's Workflow or Workflow Plus Features! You will need to enter your credit card information to begin your trial, but don’t worry - we won’t charge you anything until the subscription ends! If you wish to cancel at any time during the trial period, you can do so through your Subscriptions Settings Page.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleAnswer(this)">
+      Can I change plans anytime?
+    </div>
+    <div class="faq-answer">
+      Yes, you can from within your account. If you have already subscribed to a plan, or want to downgrade or upgrade your current one, you can do this by going to your "Settings" and "Subscription".
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleAnswer(this)">
+      How do I pause my Bonsai subscription?
+    </div>
+    <div class="faq-answer">
+      You can pause your Bonsai subscription by navigating to your account settings and selecting the "Pause Subscription" option.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleAnswer(this)">
+      What is your refund policy?
+    </div>
+    <div class="faq-answer">
+      Our refund policy allows you to request a refund within 14 days of your initial purchase. Please refer to our terms and conditions for more details.
+    </div>
+  </div>
+
+</div>
+
+<script>
+  function toggleAnswer(element) {
+    const answer = element.nextElementSibling;
+    answer.style.display = answer.style.display === "block" ? "none" : "block";
+    element.classList.toggle("active");
+  }
+</script>
+</div>
+<br><br><br>
+<footer>
+  <div class="row">
+      <h6>PRODUCT</h6><br><br><br>
+      Proposals<br>
+      Contracts<br>
+      Invoicing<br>
+      Client CRM<br>
+      Time Tracking<br>
+      Task Tracking<br>
+      Forms<br>
+      Accounting<br>
+      Bonsai Tax<br>
+      Bonsai Cash<br><br>
+      Pricing<br>
+      Bonsai Reviews
+  </div>
+  <div class="row">
+      <h6> RESOURCES</h6><br><br>
+      Freelance Resources<br>
+      Freelance Blog by Bonsai<br>
+      How to Write a Contract<br>
+      Online Signature Maker<br><br>
+      Self-Employed Taxes Hub<br>
+      Self-Employed Tax Calculator<br>
+      Self-Employed Tax Deductions<br>
+  </div>
+  <div class="row">
+      <h6>BONSAI</h6><br><br>
+      About<br>
+      Careers<br>
+      Support<br>
+      LinkedIn<br>
+      Twitter<br>
+      Privacy policy<br>
+      Legal<br>
+      Affiliates<br>
+      Write for Us<br>
+  </div>
+  </footer>
+  </body>
+  </html>
+
+
+
+
+
+</body>
+</html>

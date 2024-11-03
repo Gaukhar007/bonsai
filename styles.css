@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   /* Header styling */
+   .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.buttons .login,
+.buttons .start-free {
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.buttons .login {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.buttons .start-free {
+    background-color: #00C693;
+    color: white;
+}
+
+
+
+
+.pricing-section h1 {
+    font-size: 2,5em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  .center{
+  position: relative;
+  top: 65px;
+  left: 390px;
+  }
+  .toggle-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .toggle-buttons button {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+
+  .toggle-buttons button.active {
+    background-color: #00a863;
+    color: #fff;
+    border-color: #00a863;
+  }
+
+  .pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .pricing-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+    border-top: 4px solid #00a863;
+  }
+
+  .pricing-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .price {
+    font-size: 2em;
+    color: #00a863;
+    margin-bottom: 10px;
+  }
+
+  .pricing-card p {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  .in button{
+    background-color: #00C693;
+    color: #fff;
+    padding: 10px;
+  }
+  .cntr{
+    margin-left: 440px;
+    margin-right: 440px;
+  }
+  .article{
+    width: 60%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+   gap: 35px;
+   padding: 10px;
+   border-radius: 5px;
+  }
+  .container{
+    background-color: #f3fafe;
+    width: 60%;
+    width: 60%;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+    padding: 35px;
+    font-size: 4rem;
+ 
+  }
+  .green{
+    color: #00a863;
+  }
+  /* .incont button{
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    background-color: #00a863;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+  } */
+
+  .feature-list {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+
+  .feature-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    color: #333;
+  }
+
+  .feature-list li::before {
+    content: "✔️";
+    color: #00a863;
+    margin-right: 8px;
+  }
+
+  .pricing-card button {
+    background-color: #00a863;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+   .FrequentlyAskedQuestions{
+    width: 60%;
+    margin-left: 300px;
+    margin-right: 300px;
+   }
+
+  .faq-section {
+    width: 90%;
+    max-width: 600px;
+  }
+
+  .faq-title {
+    text-align: center;
+    font-size: 1.5em;
+    color: #00a863;
+    margin-bottom: 20px;
+  }
+
+  .faq-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  .faq-question {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .faq-answer {
+    display: none;
+    margin-top: 10px;
+    color: #555;
+  }
+
+  .faq-question::after {
+    content: "▼";
+    font-size: 1em;
+    color: #00a863;
+    transition: transform 0.3s;
+  }
+
+  .faq-question.active::after {
+    transform: rotate(180deg);
+  } 
+footer{
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+    margin-left: 300px;
+    margin-right: 300px;
+    gap: 200px;
+}
+
+
+
+
+
+
